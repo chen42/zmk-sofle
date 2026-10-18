@@ -24,15 +24,15 @@ LCtrl  Z  X  C  V  B     [→]      N  M  ,  .  /  RShift
 
 ### Layer 1 (hold L1): symbols and navigation
 
-| Key   | Output | Key   | Output |
-|-------|--------|-------|--------|
-| Esc   | `~`    | H J K L | ← ↓ ↑ → |
-| E     | `=`    | N M , . | Home PgDn PgUp End |
-| R / T | `[` `]` | Y / U | `{` `}` |
-| D     | `-`    | I     | `\|`   |
-| C     | `_`    | P     | `+`    |
-| B     | `#`    | /     | `\`    |
-| Encoder press | RGB toggle | Bksp | Delete |
+| Key           | Output     | Key     | Output             |
+| ------------- | ---------- | ------- | ------------------ |
+| Esc           | `~`        | H J K L | ← ↓ ↑ →            |
+| E             | `=`        | N M , . | Home PgDn PgUp End |
+| R / T         | `[` `]`    | Y / U   | `{` `}`            |
+| D             | `-`        | I       | `\|`               |
+| C             | `_`        | P       | `+`                |
+| B             | `#`        | /       | `\`                |
+| Encoder press | RGB toggle | Bksp    | Delete             |
 
 The joystick moves the mouse pointer on this layer, and pressing it left-clicks.
 
@@ -42,14 +42,13 @@ The joystick moves the mouse pointer on this layer, and pressing it left-clicks.
   `0 1 2 3` on N M , ., `-` on Y, `+` on P, `,` on ;, `.` on /.
 - Left half:
 
-| Key | Action |
-|-----|--------|
-| 1–5 | Select Bluetooth profile 0–4 |
-| Q   | Clear current profile's pairing |
-| W   | Clear all pairings |
-| A / S | Output to USB / Bluetooth |
-| Z   | Reset |
-| C   | Enter bootloader (flash mode) |
+| Key   | Action                          |
+| ----- | ------------------------------- |
+| 1–5   | Select Bluetooth profile 0–4    |
+| Q     | Clear current profile's pairing |
+| W     | Clear all pairings              |
+| A / S | Output to USB / Bluetooth       |
+| Z     | Reset                           |
 
 ### Combo
 
