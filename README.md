@@ -54,8 +54,8 @@ The joystick moves the mouse pointer on this layer, and pressing it left-clicks.
 
 ```
 F1    F2  F3  F4  F5  F6           F7    F8    F9    F10  F11  F12
-·     ·   ·   ·   ·   ·            ·     ·     ·     ·    ·    PrtSc
-Caps  ·   ·   ·   ·   ·            Prev  Play  Next  ·    ·    Ins
+·     ·   ·   ·   ·   ·            ·     ·     ·     ·    ·    ·
+·     ·   ·   ·   ·   ·            Prev  Play  Next  ·    ·    ·
 ·     ·   ·   ·   ·   ·            Bri-  Bri+  ·     ·    ·    ·
 ```
 

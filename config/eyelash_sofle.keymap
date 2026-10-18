@@ -125,8 +125,8 @@
         layer_3 {
             bindings = <
 &kp F1    &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &trans    &kp F7        &kp F8        &kp F9      &kp F10  &kp F11  &kp F12
-&trans    &trans  &trans  &trans  &trans  &trans    &trans    &trans        &trans        &trans      &trans   &trans   &kp PSCRN
-&kp CAPS  &trans  &trans  &trans  &trans  &trans    &trans    &kp C_PREV    &kp C_PP      &kp C_NEXT  &trans   &trans   &kp INS
+&trans    &trans  &trans  &trans  &trans  &trans    &trans    &trans        &trans        &trans      &trans   &trans   &trans
+&trans    &trans  &trans  &trans  &trans  &trans    &trans    &kp C_PREV    &kp C_PP      &kp C_NEXT  &trans   &trans   &trans
 &trans    &trans  &trans  &trans  &trans  &trans    &trans    &kp C_BRI_DN  &kp C_BRI_UP  &trans      &trans   &trans   &trans
 &trans    &trans  &trans  &trans  &trans  &trans    &trans    &trans        &trans        &trans      &trans   &trans
             >;
