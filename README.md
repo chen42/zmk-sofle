@@ -111,13 +111,20 @@ remembers the old one, and they will not reconnect. Remove "Eyelash Sofle" from 
 Bluetooth list (`bluetoothctl remove <address>` on Linux), clear the profile with **L2 + Q**,
 then pair again.
 
+## Display
+
+Both nice!view screens use [nice-view-gem](https://github.com/M165437/nice-view-gem)
+(pinned to `v0.3.0` in `config/west.yml`). The right half shows an animated crystal; set
+`CONFIG_NICE_VIEW_GEM_ANIMATION=n` in `config/eyelash_sofle.conf` to stop the animation and
+save battery.
+
 ## Building
 
 Pushing to `main` builds the firmware with GitHub Actions. Download the **firmware**
 artifact from the run in the Actions tab. It contains:
 
-- `eyelash_sofle_left nice_view-nice_nano_v2-zmk.uf2` (left half, with ZMK Studio)
-- `eyelash_sofle_right nice_view-nice_nano_v2-zmk.uf2` (right half)
+- `eyelash_sofle_left nice_view_gem-nice_nano_v2-zmk.uf2` (left half, with ZMK Studio)
+- `eyelash_sofle_right nice_view_gem-nice_nano_v2-zmk.uf2` (right half)
 - `settings_reset-nice_nano_v2-zmk.uf2`
 
 ## Flashing
