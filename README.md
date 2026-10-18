@@ -16,7 +16,7 @@ Esc    1  2  3  4  5     [↑]      6  7  8  9  0  Bksp
 Tab    Q  W  E  R  T     [↓]      Y  U  I  O  P  '
 LShift A  S  D  F  G     [←]      H  J  K  L  ;  Enter
 LCtrl  Z  X  C  V  B     [→]      N  M  ,  .  /  RShift
-(enc:Mute) ScrLk ` LAlt Space L1  [Enter]  L1 Space RAlt L2 MidClick
+(enc:Mute) ScrLk ` LAlt Space L1  [Enter]  L1 Space RAlt L2 L3
 ```
 
 - Encoder turns adjust volume; pressing it mutes.
@@ -49,6 +49,18 @@ The joystick moves the mouse pointer on this layer, and pressing it left-clicks.
 | W     | Clear all pairings              |
 | A / S | Output to USB / Bluetooth       |
 | Z     | Reset                           |
+
+### Layer 3 (hold L3, outermost right thumb key): function and media keys
+
+```
+F1    F2  F3  F4  F5  F6           F7    F8    F9    F10  F11  F12
+·     ·   ·   ·   ·   ·            ·     ·     ·     ·    ·    PrtSc
+Caps  ·   ·   ·   ·   ·            Prev  Play  Next  ·    ·    Ins
+·     ·   ·   ·   ·   ·            Bri-  Bri+  ·     ·    ·    ·
+```
+
+- F1–F12 sit on the number row, in the same spots as the digits.
+- Prev / Play / Next are media controls; Bri- / Bri+ change screen brightness.
 
 ### Combo
 
