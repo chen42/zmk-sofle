@@ -61,63 +61,6 @@
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
         };
-
-        // Symbol combos from splitkeybaord.vil, all chorded with F (base layer only)
-        combo_under {
-            bindings = <&kp UNDER>;
-            key-positions = <30 47>;  // F + M
-            layers = <0>;
-            timeout-ms = <50>;
-            require-prior-idle-ms = <100>;
-        };
-
-        combo_minus {
-            bindings = <&kp KP_MINUS>;
-            key-positions = <30 21>;  // F + U
-            layers = <0>;
-            timeout-ms = <50>;
-            require-prior-idle-ms = <100>;
-        };
-
-        combo_equal {
-            bindings = <&kp KP_EQUAL>;
-            key-positions = <30 33>;  // F + H
-            layers = <0>;
-            timeout-ms = <50>;
-            require-prior-idle-ms = <100>;
-        };
-
-        combo_pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <30 34>;  // F + J
-            layers = <0>;
-            timeout-ms = <50>;
-            require-prior-idle-ms = <100>;
-        };
-
-        combo_amps {
-            bindings = <&kp AMPS>;
-            key-positions = <30 35>;  // F + K
-            layers = <0>;
-            timeout-ms = <50>;
-            require-prior-idle-ms = <100>;
-        };
-
-        combo_bslh {
-            bindings = <&kp BSLH>;
-            key-positions = <30 50>;  // F + /
-            layers = <0>;
-            timeout-ms = <50>;
-            require-prior-idle-ms = <100>;
-        };
-
-        combo_plus {
-            bindings = <&kp PLUS>;
-            key-positions = <30 24>;  // F + P
-            layers = <0>;
-            timeout-ms = <50>;
-            require-prior-idle-ms = <100>;
-        };
     };
 
     macros {
