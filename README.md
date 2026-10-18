@@ -40,7 +40,7 @@ The joystick moves the mouse pointer on this layer, and pressing it left-clicks.
 
 - Right half numpad (needs Num Lock on): `7 8 9` on U I O, `4 5 6` on J K L,
   `0 1 2 3` on N M , ., `-` on Y, `+` on P, `,` on ;, `.` on /.
-- Left half:
+- Left half (see [Bluetooth](#bluetooth) for details):
 
 | Key   | Action                          |
 | ----- | ------------------------------- |
@@ -53,6 +53,51 @@ The joystick moves the mouse pointer on this layer, and pressing it left-clicks.
 ### Combo
 
 - Hold **Q + S + Z** for 2 seconds: soft off (deep sleep). Press the reset button to wake.
+
+## Bluetooth
+
+All Bluetooth keys are on layer 2: hold **L2** (4th thumb key from the inside on the right
+half), then press a key on the left half.
+
+| Keys   | Action                                   |
+| ------ | ---------------------------------------- |
+| L2 + 1 | Select profile 0                         |
+| L2 + 2 | Select profile 1                         |
+| L2 + 3 | Select profile 2                         |
+| L2 + 4 | Select profile 3                         |
+| L2 + 5 | Select profile 4                         |
+| L2 + Q | Clear the pairing on the current profile |
+| L2 + W | Clear the pairings on all profiles       |
+| L2 + A | Send keystrokes over USB                 |
+| L2 + S | Send keystrokes over Bluetooth           |
+
+Each profile holds one paired device (computer, tablet, phone), so up to five devices can
+be paired and switched between with L2 + 1–5. When USB is plugged in, keystrokes go over
+USB by default; use L2 + S to switch to Bluetooth while charging.
+
+The left half connects to the host; the right half connects through the left, so both
+halves need to be switched on.
+
+### Pairing a new device
+
+1. Unplug USB or press **L2 + S**.
+2. Press **L2 + 1–5** to pick an unused profile (or **L2 + Q** to clear the current one).
+3. Pair from the device. On Linux:
+
+   ```
+   bluetoothctl
+   scan on                  # wait for "Eyelash Sofle"
+   pair <address>
+   trust <address>
+   connect <address>
+   ```
+
+### Fixing a pairing that will not connect
+
+After a settings reset or **L2 + Q/W**, the keyboard forgets its pairing but the device still
+remembers the old one, and they will not reconnect. Remove "Eyelash Sofle" from the device's
+Bluetooth list (`bluetoothctl remove <address>` on Linux), clear the profile with **L2 + Q**,
+then pair again.
 
 ## Building
 
